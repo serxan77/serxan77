@@ -1,0 +1,21 @@
+Aşağıdakı işləri yerinə yetirən Python skripti yaradın:
+
+Regex əsaslı Log Analizi
+a. Regex-dən istifadə edərək verilmiş veb server log faylından IP ünvanlarını, tarixləri və HTTP metodlarını çıxarın.
+b. 5-dən çox uğursuz giriş cəhdi olan hər hansı IP ünvanlarını müəyyən edin və onları JSON faylında saxlayın.
+
+Fayl manipulyasiyası
+a. Çıxarılan IP ünvanlarını və uğursuz giriş cəhdlərinin müvafiq sayını yeni mətn faylına yazın.
+b. Aşağıdakı sütunlarla CSV faylı yaradın: IP ünvanı, tarix, HTTP metodu və uğursuz cəhdlər.
+
+Nəticə etibarilə
+
+verilən:
+server_logs.txt
+
+tapşırıqda istənilən:
+failed_logins.json          - Bu fayl 5-dən çox uğursuz giriş cəhdi olan IP ünvanlarını saxlamalıdır.
+threat_ips.json             - Bu fayl veb server log və təhdid kəşfiyyatı arasında uyğun gələn IP ünvanlarını saxlamalıdır.
+combined_security_data.json - Bu fayl uğursuz girişləri və təhdid kəşfiyyatı IP-lərini birləşdirməlidir.
+log_analysis.txt            - Bu faylda çıxarılan IP ünvanları və onların uğursuz cəhdləri olmalıdır.
+log_analysis.csv            - Bu fayl cədvəl formatında çıxarılan məlumatları özündə saxlamalıdır.
